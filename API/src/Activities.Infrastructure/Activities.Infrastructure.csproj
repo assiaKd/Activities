@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\Seed\Data\activities.json" />
+    <None Remove="Data\Seed\Data\users.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\Seed\Data\activities.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Seed\Data\users.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Routing" Version="2.3.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Activities.Application\Activities.Application.csproj" />
+    <ProjectReference Include="..\Activities.Domain\Activities.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

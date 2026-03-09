@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/API/" />
+  <Folder Name="/API/src/">
+    <Project Path="API/src/Activities.API/Activities.API.csproj" Id="d7036585-9bdb-464e-8ad1-5d42be8a9096" />
+    <Project Path="API/src/Activities.Application/Activities.Application.csproj" Id="709cb77e-e1e0-4816-a0d0-cbc660b3882f" />
+    <Project Path="API/src/Activities.Domain/Activities.Domain.csproj" Id="ecf2d61c-e938-42f0-a7cc-a0d701819855" />
+    <Project Path="API/src/Activities.Infrastructure/Activities.Infrastructure.csproj" Id="b874eff7-9abe-4248-ac20-ce55ec122a2a" />
+    <Project Path="API/src/Activities.Presentation/Activities.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/API/tests/">
+    <Project Path="API/tests/Activities.Application.Tests/Activities.Application.Tests.csproj" Id="b2efb3e2-9edf-486e-93af-95a8876d995f" />
+  </Folder>
+</Solution>

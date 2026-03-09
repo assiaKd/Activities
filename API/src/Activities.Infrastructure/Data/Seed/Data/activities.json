@@ -1,0 +1,190 @@
+[
+  {
+    "title": "Past Activity 1",
+    "dateOffsetMonths": -2,
+    "description": "Activity 2 months ago",
+    "category": "drinks",
+    "city": "London",
+    "venue": "The Lamb and Flag",
+    "latitude": 51.51171665,
+    "longitude": -0.1256611057818921,
+    "attendees": [
+      {
+        "userId": "bob-id",
+        "isHost": true
+      },
+      {
+        "userId": "tom-id",
+        "isHost": false
+      }
+    ]
+  },
+  {
+    "title": "Past Activity 2",
+    "dateOffsetMonths": -1,
+    "description": "Activity 1 month ago",
+    "category": "culture",
+    "city": "Paris",
+    "venue": "Louvre Museum",
+    "latitude": 48.8611473,
+    "longitude": 2.33802768704666,
+    "attendees": [
+      {
+        "userId": "tom-id",
+        "isHost": true
+      },
+      {
+        "userId": "jane-id",
+        "isHost": false
+      },
+      {
+        "userId": "bob-id",
+        "isHost": false
+      }
+    ]
+  },
+  {
+    "title": "Future Activity 1",
+    "dateOffsetMonths": 1,
+    "description": "Activity 1 month in future",
+    "category": "culture",
+    "city": "London",
+    "venue": "Natural History Museum",
+    "latitude": 51.4965109,
+    "longitude": -0.17600190725447445,
+    "attendees": [
+      {
+        "userId": "jane-id",
+        "isHost": true
+      }
+    ]
+  },
+  {
+    "title": "Future Activity 2",
+    "dateOffsetMonths": 2,
+    "description": "Activity 2 months in future",
+    "category": "music",
+    "city": "London",
+    "venue": "The O2",
+    "latitude": 51.50293665,
+    "longitude": 0.0032029278126681844,
+    "attendees": [
+      {
+        "userId": "bob-id",
+        "isHost": true
+      },
+      {
+        "userId": "jane-id",
+        "isHost": false
+      }
+    ]
+  },
+  {
+    "title": "Future Activity 3",
+    "dateOffsetMonths": 3,
+    "description": "Activity 3 months in future",
+    "category": "drinks",
+    "city": "London",
+    "venue": "The Mayflower",
+    "latitude": 51.501778,
+    "longitude": -0.053577,
+    "attendees": [
+      {
+        "userId": "tom-id",
+        "isHost": true
+      }
+    ]
+  },
+  {
+    "title": "Future Activity 4",
+    "dateOffsetMonths": 4,
+    "description": "Activity 4 months in future",
+    "category": "drinks",
+    "city": "London",
+    "venue": "The Blackfriar",
+    "latitude": 51.51214665,
+    "longitude": -0.10364680647106028,
+    "attendees": [
+      {
+        "userId": "jane-id",
+        "isHost": true
+      },
+      {
+        "userId": "bob-id",
+        "isHost": false
+      }
+    ]
+  },
+  {
+    "title": "Future Activity 5",
+    "dateOffsetMonths": 5,
+    "description": "Activity 5 months in future",
+    "category": "culture",
+    "city": "London",
+    "venue": "Sherlock Holmes Museum",
+    "latitude": 51.5237629,
+    "longitude": -0.1584743,
+    "attendees": [
+      {
+        "userId": "bob-id",
+        "isHost": true
+      }
+    ]
+  },
+  {
+    "title": "Future Activity 6",
+    "dateOffsetMonths": 6,
+    "description": "Activity 6 months in future",
+    "category": "music",
+    "city": "London",
+    "venue": "Roundhouse",
+    "latitude": 51.5432505,
+    "longitude": -0.15197608174931165,
+    "attendees": [
+      {
+        "userId": "tom-id",
+        "isHost": true
+      },
+      {
+        "userId": "bob-id",
+        "isHost": false
+      }
+    ]
+  },
+  {
+    "title": "Future Activity 7",
+    "dateOffsetMonths": 7,
+    "description": "Travel on the Thames",
+    "category": "travel",
+    "city": "London",
+    "venue": "River Thames",
+    "latitude": 51.5575525,
+    "longitude": -0.781404,
+    "attendees": [
+      {
+        "userId": "jane-id",
+        "isHost": true
+      },
+      {
+        "userId": "tom-id",
+        "isHost": false
+      }
+    ]
+  },
+  {
+    "title": "Future Activity 8",
+    "dateOffsetMonths": 8,
+    "description": "Activity 8 months in future",
+    "category": "film",
+    "city": "London",
+    "venue": "Odeon Leicester Square",
+    "latitude": 51.5107,
+    "longitude": -0.1301,
+    "attendees": [
+      {
+        "userId": "bob-id",
+        "isHost": true
+      }
+    ]
+  }
+]
